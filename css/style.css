@@ -1,3 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border: solid red;
+}
+
+.headercontainer {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    border: solid red;
+}
+
+.other {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
 .welcome {
     text-align: center;
+}
+
+.footer {
+    background-color: black;
+    padding-top: 40px;
 }
