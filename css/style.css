@@ -6,17 +6,13 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    background-color: rgb(48, 41, 235);
-     
+    background-color: rgb(235, 157, 41);
 }
 
 .headercontainer {
     display: flex;
     width: 1000px;
-    justify-content: space-between;
-    background-color: white;
-    border: solid rgb(48, 41, 235);
-     
+    justify-content: space-between;     
 }
 
 .other {
@@ -30,6 +26,6 @@ body {
 }
 
 .footer {
-    background-color: rgb(48, 41, 235);
+    background-color: rgb(235, 157, 41);
     padding-top: 40px;
 }
