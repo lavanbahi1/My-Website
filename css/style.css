@@ -1,10 +1,15 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100vh; /*From https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing */
+    /*min-height: 100vh;*/ /*From https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing */
+    height: 100%;
 }
 
 .header {
@@ -32,4 +37,9 @@ body {
 .footer {
     background-color: rgb(235, 157, 41);
     padding-top: 40px;
+    margin-top: auto; /*From https://stackoverflow.com/questions/72340370/how-to-make-footer-stay-at-the-bottom-of-page-despite-theres-not-enough-of-cont */
+}
+
+.welcomeText {
+    margin: 0;
 }
