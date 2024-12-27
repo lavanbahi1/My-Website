@@ -2,7 +2,11 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-image: url('../background.jpeg');
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url('../background.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .container {
@@ -29,18 +33,20 @@ body {
     color: rgb(0, 153, 255);
 }
 
-.maincontainer {
-    color: rgb(0, 153, 255);
-}
-
 .other {
     list-style-type: none;
     display: flex;
     gap: 10px;
 }
 
+.maincontainer {
+    color: rgb(0, 153, 255);
+}
+
+
 .welcome {
     text-align: center;
+    font-size: 40px;
 }
 
 .footer {
