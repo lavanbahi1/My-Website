@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
+    background-image: url('../background.jpeg');
 }
 
 .container {
@@ -15,13 +16,21 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    background-color: rgb(235, 157, 41);
+    background-color: black;
 }
 
 .headercontainer {
     display: flex;
     width: 1000px;
     justify-content: space-between;     
+}
+
+.name {
+    color: rgb(0, 153, 255);
+}
+
+.maincontainer {
+    color: rgb(0, 153, 255);
 }
 
 .other {
@@ -35,7 +44,7 @@ body {
 }
 
 .footer {
-    background-color: rgb(235, 157, 41);
+    background-color: black;
     padding-top: 40px;
     margin-top: auto; /*From https://stackoverflow.com/questions/72340370/how-to-make-footer-stay-at-the-bottom-of-page-despite-theres-not-enough-of-cont */
 }
