@@ -29,7 +29,7 @@ body {
     justify-content: space-between;     
 }
 
-.name {
+#name {
     color: rgb(0, 153, 255);
 }
 
@@ -39,12 +39,13 @@ body {
     gap: 10px;
 }
 
-.am:link, .ed:link, .proj:link, .prog:link, .goals:link, .cont:link {
+.amLink:link, .edLink:link, .projLink:link, .progLink:link, .goalsLink:link, .contLink:link {
     color: white;
     text-decoration: none;
 }
 
-.am:hover, .am:visited, .ed:hover, .ed:visited, .proj:hover, .proj:visited, .prog:hover, .prog:visited, .goals:hover, .goals:visited, .cont:hover, .cont:visited {
+.amLink:hover, .amLink:visited, .edLink:hover, .edLink:visited, .projLink:hover, .projLink:visited, 
+.progLink:hover, .progLink:visited, .goalsLink:hover, .goalsLink:visited, .contLink:hover, .contLink:visited {
     color: rgb(0, 153, 255);
     text-decoration: none;
 }
@@ -60,6 +61,10 @@ body {
     text-align: center;
     font-size: 40px;
     color: rgb(0, 153, 255);
+}
+
+.welcomeText {
+    margin: 0;
 }
 
 .aboutContainer {
@@ -119,7 +124,7 @@ body {
 
 .projectsHover {
     transform: scale(1.1);
-    border: solid red;
+    border: solid rgb(0, 153, 255);
 }
 
 .innerProjectsContainer > * {
@@ -161,12 +166,25 @@ body {
     text-align: center;
 }
 
+.backToTopContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.backToTopLink {
+    display: block;
+    background-image: url('../UpArrow.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center; 
+    width: 125px;
+    height: 125px;
+    border: solid white;
+}
+
 .footer {
     background-color: black;
     padding-top: 40px;
     margin-top: auto; 
 }
 
-.welcomeText {
-    margin: 0;
-}
