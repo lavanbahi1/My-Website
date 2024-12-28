@@ -39,12 +39,12 @@ body {
     gap: 10px;
 }
 
-a:link {
+.am:link, .ed:link, .proj:link, .prog:link, .goals:link, .cont:link {
     color: white;
     text-decoration: none;
 }
 
-a:hover, a:visited {
+.am:hover, .am:visited, .ed:hover, .ed:visited, .proj:hover, .proj:visited, .prog:hover, .prog:visited, .goals:hover, .goals:visited, .cont:hover, .cont:visited {
     color: rgb(0, 153, 255);
     text-decoration: none;
 }
@@ -108,6 +108,7 @@ a:hover, a:visited {
 }
 
 .project1, .project2 {
+    display: block;
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -117,7 +118,7 @@ a:hover, a:visited {
 }
 
 .projectsHover {
-    transform:scale(1.1);
+    transform: scale(1.1);
     border: solid red;
 }
 
