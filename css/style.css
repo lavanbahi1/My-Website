@@ -100,6 +100,25 @@ a:hover, a:visited {
     text-align: center;
 }
 
+.innerProjectsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.project1, .project2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid white;
+    border-width: thick;
+}
+
+.innerProjectsContainer > * {
+    width: 200px;
+    text-align: center;
+}
+
 .programmingContainer {
     border-radius: 5px;
     border: solid white;
