@@ -93,6 +93,7 @@ a:hover, a:visited {
     border-radius: 5px;
     border: solid white;
     width: 1000px;
+    height: 500px;
     align-self: center;
 }
 
@@ -112,6 +113,12 @@ a:hover, a:visited {
     border-radius: 10px;
     border: solid white;
     border-width: thick;
+    transition: all 0.07s;
+}
+
+.projectsHover {
+    transform:scale(1.1);
+    border: solid red;
 }
 
 .innerProjectsContainer > * {
