@@ -23,7 +23,7 @@ body {
     background-color: black;
 }
 
-.headercontainer {
+.headerContainer {
     display: flex;
     width: 1000px;
     justify-content: space-between;     
@@ -49,7 +49,7 @@ a:hover, a:visited {
     text-decoration: none;
 }
 
-.maincontainer {
+.mainContainer {
     color: white;
     display: flex;
     flex-direction: column;
@@ -63,52 +63,75 @@ a:hover, a:visited {
 }
 
 .aboutContainer {
-    text-align: center;
     border-radius: 5px;
     border: solid white;
     width: 1000px;
     align-self: center;
+}
+
+#about {
+    text-align: center;
+}
+
+.aboutBody {
+    display: flex;
+    justify-content: space-between;
 }
 
 .educationContainer {
-    text-align: center;
     border-radius: 5px;
     border: solid white;
     width: 1000px;
     align-self: center;
+}
+
+#education {
+    text-align: center;
 }
 
 .projectsContainer {
-    text-align: center;
     border-radius: 5px;
     border: solid white;
     width: 1000px;
     align-self: center;
+}
+
+#projects {
+    text-align: center;
 }
 
 .programmingContainer {
-    text-align: center;
     border-radius: 5px;
     border: solid white;
     width: 1000px;
     align-self: center;
 }
 
-.goalsContainer {
+#programming {
     text-align: center;
+}
+
+.goalsContainer {
     border-radius: 5px;
     border: solid white;
     width: 1000px;
     align-self: center;
+}
+
+#goals {
+    text-align: center;
 }
 
 
 .contactContainer {
-    text-align: center;
     border-radius: 5px;
     border: solid white;
     width: 1000px;
     align-self: center;
+}
+
+#contact {
+    text-align: center;
 }
 
 .footer {
