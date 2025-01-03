@@ -44,9 +44,13 @@ body {
     text-decoration: none;
 }
 
-.amLink:hover, .amLink:visited, .edLink:hover, .edLink:visited, .projLink:hover, .projLink:visited, 
-.progLink:hover, .progLink:visited, .goalsLink:hover, .goalsLink:visited, .contLink:hover, .contLink:visited {
+.amLink:visited, .edLink:visited, .projLink:visited, .progLink:visited, .goalsLink:visited, .contLink:visited {
     color: rgb(0, 153, 255);
+    text-decoration: none;
+}
+
+.amLink:hover, .edLink:hover, .projLink:hover, .progLink:hover, .goalsLink:hover, .contLink:hover {
+    color: white;
     text-decoration: none;
 }
 
