@@ -1,4 +1,4 @@
-const p1 = document.querySelector(".project1");
+/*const p1 = document.querySelector(".project1");
 
 p1.addEventListener("mouseover", () => {
     p1.classList.add("projectsHover");
@@ -16,4 +16,4 @@ p2.addEventListener("mouseover", () => {
 
 p2.addEventListener("mouseleave", () => {
     p2.classList.remove("projectsHover");
-})
+})*/
