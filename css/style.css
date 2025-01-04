@@ -98,16 +98,13 @@ body {
     border: solid white;
     width: 1000px;
     align-self: center;
+    text-align: center;
 }
 
 .educationContainer:hover {
     border: solid black;
     background-color: white;
     color: black;
-}
-
-#education {
-    text-align: center;
 }
 
 .projectsContainer {
@@ -165,16 +162,13 @@ body {
     border: solid white;
     width: 1000px;
     align-self: center;
+    text-align: center;
 }
 
 .programmingContainer:hover {
     border: solid black;
     background-color: white;
     color: black;
-}
-
-#programming {
-    text-align: center;
 }
 
 .goalsContainer {
@@ -194,22 +188,18 @@ body {
     text-align: center;
 }
 
-
 .contactContainer {
     border-radius: 5px;
     border: solid white;
     width: 1000px;
     align-self: center;
+    text-align: center;
 }
 
 .contactContainer:hover {
     border: solid black;
     background-color: white;
     color: black;
-}
-
-#contact {
-    text-align: center;
 }
 
 .backToTopContainer {
