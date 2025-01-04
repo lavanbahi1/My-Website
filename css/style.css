@@ -116,6 +116,13 @@ body {
     gap: 50px;
 }
 
+.project1 {
+    background-image: url('../CalculatorProject.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+
 .project1, .project2 {
     display: block;
     width: 200px;
