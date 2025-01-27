@@ -21,6 +21,8 @@ body {
     display: flex;
     justify-content: center;
     background-color: black;
+    position: sticky; /*Fixed header*/
+    top: 0;
 }
 
 .headerContainer {
@@ -127,6 +129,13 @@ body {
 
 .project1 {
     background-image: url('../CalculatorProject.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+
+.project2 {
+    background-image: url('../BoardGameProject.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% 100%;
