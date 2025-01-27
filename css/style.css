@@ -82,7 +82,7 @@ body {
 
 .aboutContainer:hover {
     border: solid black;
-    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
     color: black;
 }
 
@@ -105,7 +105,7 @@ body {
 
 .educationContainer:hover {
     border: solid black;
-    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
     color: black;
 }
 
@@ -119,17 +119,17 @@ body {
 
 .projectsContainer:hover {
     border: solid black;
-    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
     color: black;
 }
 
-.projectsContainer:hover .project1 {
+/*.projectsContainer:hover .project1 {
     border: solid black;
 }
 
 .projectsContainer:hover .project2 {
     border: solid black;
-}
+}*/
 
 #projects {
     text-align: center;
@@ -190,7 +190,7 @@ body {
 
 .programmingContainer:hover {
     border: solid black;
-    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
     color: black;
 }
 
@@ -203,7 +203,7 @@ body {
 
 .goalsContainer:hover {
     border: solid black;
-    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
     color: black;
 }
 
@@ -221,7 +221,7 @@ body {
 
 .contactContainer:hover {
     border: solid black;
-    background-color: white;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
     color: black;
 }
 
