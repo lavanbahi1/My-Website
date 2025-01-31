@@ -41,17 +41,17 @@ body {
     gap: 10px;
 }
 
-.amLink:link, .edLink:link, .projLink:link, .progLink:link, .goalsLink:link, .contLink:link {
+.amLink:link, .edLink:link, .projLink:link, .progLink:link, .skillsLink:link, .goalsLink:link, .contLink:link {
     color: white;
     text-decoration: none;
 }
 
-.amLink:visited, .edLink:visited, .projLink:visited, .progLink:visited, .goalsLink:visited, .contLink:visited {
+.amLink:visited, .edLink:visited, .projLink:visited, .progLink:visited, .skillsLink:visited, .goalsLink:visited, .contLink:visited {
     color: rgb(0, 153, 255);
     text-decoration: none;
 }
 
-.amLink:hover, .edLink:hover, .projLink:hover, .progLink:hover, .goalsLink:hover, .contLink:hover {
+.amLink:hover, .edLink:hover, .projLink:hover, .progLink:hover, .skillsLink:hover, .goalsLink:hover, .contLink:hover {
     color: white;
     text-decoration: none;
 }
@@ -190,6 +190,20 @@ body {
 }
 
 .programmingContainer:hover {
+    border: solid black;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
+    color: black;
+}
+
+.otherSkillsContainer {
+    border-radius: 5px;
+    border: solid white;
+    width: 1000px;
+    align-self: center;
+    text-align: center;
+}
+
+.otherSkillsContainer:hover {
     border: solid black;
     background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
     color: black;
