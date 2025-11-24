@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: Verdana, Arial, sans-serif;
-    background-image: url('../background.avif');
+    background-image: url('../background3.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -57,7 +57,7 @@ body {
 }
 
 .mainContainer {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -66,7 +66,7 @@ body {
 .welcomeContainer {
     text-align: center;
     font-size: 40px;
-    color: rgb(0, 153, 255);
+    color: black;
 }
 
 .welcomeText {
@@ -78,6 +78,7 @@ body {
     border: solid white;
     width: 1000px;
     align-self: center;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
 }
 
 .aboutContainer:hover {
@@ -102,6 +103,7 @@ body {
     width: 1000px;
     align-self: center;
     text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
 }
 
 .educationContainer:hover {
@@ -116,6 +118,7 @@ body {
     width: 1000px;
     height: 500px;
     align-self: center;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
 }
 
 .projectsContainer:hover {
@@ -187,6 +190,7 @@ body {
     width: 1000px;
     align-self: center;
     text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
 }
 
 .programmingContainer:hover {
@@ -201,6 +205,7 @@ body {
     width: 1000px;
     align-self: center;
     text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
 }
 
 .otherSkillsContainer:hover {
@@ -214,6 +219,7 @@ body {
     border: solid white;
     width: 1000px;
     align-self: center;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
 }
 
 .goalsContainer:hover {
@@ -232,6 +238,8 @@ body {
     width: 1000px;
     align-self: center;
     text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(110, 226, 245), rgb(0, 153, 255));
+    display: none;
 }
 
 .contactContainer:hover {
@@ -266,3 +274,6 @@ body {
     margin-top: auto; 
 }
 
+.mainContainer, .aboutContainer, .educationContainer, .projectsContainer, .project1, .project2, .programmingContainer, .otherSkillsContainer, .goalsContainer, .contactContainer, .backToTopLink {
+    border: solid black;
+}
