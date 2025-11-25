@@ -1,12 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 100vh;
     font-family: Verdana, Arial, sans-serif;
-    background-image: url('../background3.jpeg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    overflow-x: hidden;
 }
 
 .container {
@@ -31,7 +28,7 @@ body {
     justify-content: space-between;     
 }
 
-#name {
+.name {
     color: rgb(0, 153, 255);
 }
 
@@ -39,6 +36,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 10px;
+    padding: 0px;
 }
 
 .amLink:link, .edLink:link, .projLink:link, .progLink:link, .skillsLink:link, .goalsLink:link, .contLink:link {
@@ -61,6 +59,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    min-height: 100vh;
+
+    background: url('../background3.jpeg') no-repeat center center fixed;
+    background-size: cover;
+
 }
 
 .welcomeContainer {
@@ -102,6 +105,7 @@ body {
     border-radius: 10px;
     border: solid black;
     padding: 10px;
+    width: 30%
 }
 
 .educationContainer {
@@ -306,8 +310,7 @@ body {
 
 .footer {
     background-color: black;
-    padding-top: 40px;
-    margin-top: auto; 
+    min-height: 50px
 }
 
 .mainContainer, .aboutContainer, .educationContainer, .projectsContainer, .project1, .project2, .project3, .programmingContainer, .otherSkillsContainer, .goalsContainer, .contactContainer, .backToTopLink {
@@ -357,5 +360,43 @@ body {
     
     .project1, .project2, .project3 {
         width: 200px;
+    }
+}
+
+@media (max-width: 603px) {
+    .aboutTextContainer {
+        width: 30%;
+    }
+}
+
+@media (max-width: 490px) {
+    .headerContainer {
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+    }
+
+    .innerProjectsContainer > * {
+        width: 95%;
+    }
+
+    .aboutBody {
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    .aboutTextContainer {
+        width: 75%;
+        text-align: center;
+    }
+
+    .myImgDiv {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .photo {
+        width: 65%
     }
 }
