@@ -313,3 +313,49 @@ body {
 .mainContainer, .aboutContainer, .educationContainer, .projectsContainer, .project1, .project2, .project3, .programmingContainer, .otherSkillsContainer, .goalsContainer, .contactContainer, .backToTopLink {
     border: solid black;
 }
+
+.aboutContainer, .educationContainer, .projectsContainer, .programmingContainer, .otherSkillsContainer, .contactContainer {
+    width: 60vw;
+}
+
+@media (max-width: 1216px) {
+    .innerProjectsContainer {
+        gap: 25px
+    }
+
+    .innerProjectsContainer > * {
+        width: 30%;
+    }
+
+    .project1, .project2, .project3 {
+        width: 98%;
+
+    }
+}
+
+@media (max-width: 960px) {
+    .aboutContainer, .educationContainer, .projectsContainer, .programmingContainer, .otherSkillsContainer, .contactContainer {
+        width: 95vw;
+    }
+
+    .projectsContainer {
+        height: 1450px;
+    }
+
+    .innerProjectsContainer {
+        flex-direction: column;
+        justify-content: normal;
+        align-items: center;
+    }
+
+    .innerProjectsContainer > * {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .project1, .project2, .project3 {
+        width: 200px;
+    }
+}
